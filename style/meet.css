@@ -1,0 +1,98 @@
+.meet {
+    margin-top: 132px;
+    padding-left: calc(50% - 609px);
+    padding-bottom: 115px;
+}
+
+.text__small {
+    width: 450px;
+}
+
+.meet__text {
+    margin-top: 34px;
+    margin-bottom: 37px;
+}
+
+.meet__content {
+    margin-top: 66px;
+    display: flex;
+    gap: 75px;
+}
+
+.meet__heading {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30.127px;
+    letter-spacing: 0.275265px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 29px;
+    margin-top: 16px;
+}
+
+.text__big {
+    max-width: 650px;
+}
+
+.meet__links {
+    display: flex;
+    gap: 28px;
+    margin-top: 45px;
+}
+
+.meet__link {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.9px;
+    color: #000000;
+}
+
+.meet__link:hover {
+    text-decoration: underline;
+}
+
+.meet__peoples {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 58px;
+}
+
+.meet__people {
+    display: flex;
+    position: relative;
+    width: 196px;
+    height: 216px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    overflow: hidden;
+}
+
+.meet__people:hover .meet__name-box {
+    left: 0;
+}
+
+.meet__name-box {
+    background: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    width: 100%;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    left: -100%;
+    transition: left .3s;
+}
+
+.meet__person-name {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 18.0762px;
+    letter-spacing: 0.165159px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
